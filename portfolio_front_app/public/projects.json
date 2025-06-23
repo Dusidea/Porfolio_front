@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "slug": "locations",
+    "title": "Site de locations de vacances",
+    "description": "Simulation d’un site de locations avec React et JSON.",
+    "url": "https://dusidea.fr/",
+    "github": "https://github.com/Dusidea/OC_P7_KASA.git"
+  },
+  {
+    "id": 2,
+    "slug": "bank",
+    "title": "Autre projet React",
+    "description": "App bancaire",
+    "url": "https://www.youtube.com/",
+    "github": "https://github.com/Dusidea/P10_ArgentBank-Backend.git"
+  }
+]
