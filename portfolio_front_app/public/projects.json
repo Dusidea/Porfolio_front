@@ -14,5 +14,13 @@
     "description": "App bancaire",
     "url": "https://www.youtube.com/",
     "github": "https://github.com/Dusidea/P10_ArgentBank-Backend.git"
+  },
+  {
+    "id": 3,
+    "slug": "bluel",
+    "title": "Site de photographe",
+    "description": "Projet JavaScript Vanilla avec formulaires",
+    "url": "https://www.youtube.com/",
+    "github": "https://github.com/Dusidea/OCP6.git"
   }
 ]
