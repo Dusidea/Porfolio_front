@@ -8,7 +8,16 @@ export default function SimpleContainer({ children }) {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="false">
-        <Box sx={{ bgcolor: "secondary.main", height: "100vh" }}>
+        <Box
+          sx={{
+            bgcolor: "primary.main",
+            "&:hover": {
+              bgcolor: "primary.dark",
+            },
+            height: "100vh",
+            padding: "50px",
+          }}
+        >
           {children}
         </Box>
       </Container>

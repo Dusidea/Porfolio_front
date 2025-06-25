@@ -1,19 +1,23 @@
 import { createTheme } from "@mui/material/styles";
 
-let theme = createTheme({
+const theme = createTheme({
   palette: {
     primary: {
-      main: "#028476", // green
+      main: "#028476",
     },
     secondary: {
-      main: "#A5CFE3", // light blue
+      main: "#00221c",
     },
     background: {
-      default: "#f5f5f5",
+      default: "#028476",
+    },
+    text: {
+      primary: "#FFFFF0",
+      secondary: "	#000000",
     },
   },
   typography: {
-    fontFamily: `'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif`,
+    fontFamily: `'Lato', sans-serif`,
     h1: {
       fontSize: "2.5rem",
     },
@@ -22,15 +26,5 @@ let theme = createTheme({
     borderRadius: 12,
   },
 });
-
-theme = {
-  ...theme, // keeping what's defined in theme
-  typography: {
-    ...theme.typography, //keeping previously declared typo style
-    allVariants: {
-      color: theme.palette.primary.main, // adding key `allVariants`
-    },
-  },
-};
 
 export default theme;

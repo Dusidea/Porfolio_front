@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Project from "./Project";
 import Typography from "@mui/material/Typography";
+import Masonry from "@mui/lab/Masonry";
 
 export default function ProjectsList() {
   const [projects, setProjects] = useState([]);
@@ -14,10 +15,10 @@ export default function ProjectsList() {
 
   return (
     <div>
-      <Typography variant="h2" color="primary">
-        Mes projets
-      </Typography>
-      <Project projects={projects} />
+      <Typography variant="h2">Mes projets</Typography>
+      <Masonry>
+        <Project projects={projects} />
+      </Masonry>
     </div>
   );
 }
