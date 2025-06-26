@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { Box } from "@mui/material";
+
 import Project from "./Project";
 import Typography from "@mui/material/Typography";
 import Masonry from "@mui/lab/Masonry";
@@ -14,11 +16,11 @@ export default function ProjectsList() {
   }, []);
 
   return (
-    <div>
+    <Box>
       <Typography variant="h2">Mes projets</Typography>
-      <Masonry>
+      <Masonry spacing={5}>
         <Project projects={projects} />
       </Masonry>
-    </div>
+    </Box>
   );
 }

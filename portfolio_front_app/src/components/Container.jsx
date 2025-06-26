@@ -11,10 +11,11 @@ export default function SimpleContainer({ children }) {
         <Box
           sx={{
             bgcolor: "primary.main",
-            "&:hover": {
-              bgcolor: "primary.dark",
-            },
+            // "&:hover": {
+            //   bgcolor: "primary.dark",
+            // },
             height: "100vh",
+
             padding: "50px",
           }}
         >

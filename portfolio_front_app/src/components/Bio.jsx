@@ -1,6 +1,11 @@
+import { Box, Typography, Container, Button } from "@mui/material";
+
 export default function Bio() {
   return (
-    <>
+    <Box
+      component="section"
+      sx={{ width: "80%", padding: "25px", border: 1, borderRadius: "15px" }}
+    >
       <p>
         Développeuse web reconvertie après 10 ans d'expérience comme Customer
         Success.
@@ -15,6 +20,6 @@ export default function Bio() {
         développement des applications, du recueil du besoin à la mise en
         production sans perdre de vue les utilisateurs finaux.
       </p>
-    </>
+    </Box>
   );
 }

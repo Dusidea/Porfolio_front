@@ -5,12 +5,14 @@ export default function HeroHeader() {
     <Box
       component="header"
       sx={{
-        background:
-          "linear-gradient(127deg,rgba(2, 132, 118, 1) 0%, rgba(0, 34, 28, 1) 100%)",
+        // background:
+        //   "linear-gradient(127deg,rgba(2, 132, 118, 1) 0%, rgba(0, 34, 28, 1) 100%)",
+        bgcolor: "primary.dark",
         backgroundPosition: "center",
         color: "white",
         py: 8,
         textAlign: "center",
+        borderRadius: "25px",
       }}
     >
       <Container component="section" maxWidth="md">
