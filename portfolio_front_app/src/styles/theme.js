@@ -12,15 +12,15 @@ const theme = createTheme({
       main: "#11B6A5", //teal blue light
     },
     secondary: {
-      main: "#C58130", //orange
+      main: "#E88E2D", //orange
     },
 
     background: {
       default: "primary.main",
     },
     text: {
-      primary: "#FFFFF0",
-      secondary: "#FFFFFF",
+      primary: "#FFFFF0", //black
+      secondary: "#FFFFFF", //white
     },
   },
   typography: {

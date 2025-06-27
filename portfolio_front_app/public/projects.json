@@ -5,7 +5,8 @@
     "title": "Site de locations de vacances",
     "description": "Simulation d’un site de locations avec React et JSON.",
     "url": "https://dusidea.fr/",
-    "github": "https://github.com/Dusidea/OC_P7_KASA.git"
+    "github": "https://github.com/Dusidea/OC_P7_KASA.git",
+    "preview": "../src/assets/Kasa_preview.png"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "title": "Autre projet React",
     "description": "App bancaire",
     "url": "https://www.youtube.com/",
-    "github": "https://github.com/Dusidea/P10_ArgentBank-Backend.git"
+    "github": "https://github.com/Dusidea/P10_ArgentBank-Backend.git",
+    "preview": "../src/assets/Kasa_preview.png"
   },
   {
     "id": 3,
@@ -21,6 +23,7 @@
     "title": "Site de photographe",
     "description": "Projet JavaScript Vanilla avec formulaires",
     "url": "https://www.youtube.com/",
-    "github": "https://github.com/Dusidea/OCP6.git"
+    "github": "https://github.com/Dusidea/OCP6.git",
+    "preview": "../src/assets/Kasa_preview.png"
   }
 ]

@@ -3,8 +3,15 @@ import { Box, Typography, Container, Button } from "@mui/material";
 export default function Bio() {
   return (
     <Box
+      id="about"
       component="section"
-      sx={{ width: "80%", padding: "25px", border: 1, borderRadius: "15px" }}
+      sx={{
+        padding: "25px",
+        bgcolor: "primary.light",
+        // border: 1,
+        borderRadius: "15px",
+        width: "50%",
+      }}
     >
       <p>
         Développeuse web reconvertie après 10 ans d'expérience comme Customer

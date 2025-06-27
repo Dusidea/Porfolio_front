@@ -1,24 +1,24 @@
 import { Button } from "@mui/material";
 
-const NavButton = ({ href, children }) => (
+const MyButton = ({ href, children }) => (
   <Button
     variant="contained"
-    color="inherit"
     component="a"
     href={href}
     size="large"
     sx={{
       textTransform: "none",
       fontWeight: "bold",
-      bgcolor: "primary.main",
+      bgcolor: "secondary.main",
       "&:hover": {
-        bgcolor: "secondary.main",
+        bgcolor: "primary.dark",
       },
       mx: "10px",
+      color: "text.secondary",
     }}
   >
     {children}
   </Button>
 );
 
-export default NavButton;
+export default MyButton;
